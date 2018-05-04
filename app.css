@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: linear-gradient(rgb(50, 53, 129), rgb(107, 85, 157)) no-repeat;
+}
+
+.top {
+    height: 4.2rem;
+}
+
+.cloud {
+    width: 70%;
+    height: 3rem;
+    float: right;
+    background: url(./img/云.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 2rem;
+    z-index: 2;
+}
+
+.sun {
+    width: 100%;
+    height: 3.8rem;
+    background: url(./img/太阳-1.png) no-repeat;
+    background-size: auto 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.weather {
+    margin: 0 auto;
+    position: absolute;
+    top: 1rem;
+    font-size: 0.7rem;
+    color: white;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.plus {
+    height: 0.5rem;
+    width: 0.5rem;
+    background: url(./img/plus.png) no-repeat;
+    background-size: auto 100%;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.2rem;
+}
+
+.mid {
+    position: relative;
+    height: 4.5rem;
+}
+
+.data {
+    width: 40%;
+    font-size: 0.4rem;
+    position: absolute;
+    float: left;
+    color: #fff;
+}
+
+.data ul {
+    height: 7rem;
+    float: right;
+}
+
+.data ul li {
+    display: block;
+}
+
+.data ul li:first-child {
+    font-size: 1.2rem;
+}
+
+.news {
+    height: 7rem;
+    width: 60%;
+    position: absolute;
+    right: 0;
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.img {
+    width: 100%;
+    background: url(./img/more.png) no-repeat;
+    background-size: 100%;
+    height: 4rem;
+    top: 1.8rem;
+    position: absolute;
+}
+
+.news ul {
+    width: 100%;
+    position: absolute;
+    top: 1rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.news ul li {
+    margin: 0.36rem 0;
+}
+
+.news ul li:last-child {
+    margin: 1rem 0;
+    color: #000;
+}
+
+.details {
+    height: 7rem;
+    background: url(./img/frog.png) no-repeat center bottom;
+    background-size: 100% auto;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+}
+
+.frog {
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.time {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.4rem;
+}
+
+
+/* .time span:first-child {
+    font-size: 0.4rem;
+} */
+
+.sign {
+    margin: 0.15rem 0;
+    height: 0.88rem;
+    text-align: center;
+    vertical-align: middle;
+    background: url(./img/sign.png) no-repeat center top;
+    background-size: auto 100%;
+}
+
+.temperature {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.4rem;
+    margin: 0.15rem 0;
+}
